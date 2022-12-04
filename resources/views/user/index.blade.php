@@ -141,7 +141,7 @@
                     </div>
                 </div>
                 <div class="col-12 mt-4">
-                    <button class="btn btn-primary" id="send-data" type="submit" disabled>Atualizar</button>
+                    <button class="btn btn-primary" id="send-data" type="submit">Atualizar</button>
                 </div>
             </form>
         </div>
