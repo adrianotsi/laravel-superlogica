@@ -41,7 +41,6 @@
                     <div class="col-md-4">
                         <label for="email" class="form-label">E-mail</label>
                         <div class="input-group has-validation">
-                            <span class="input-group-text" id="inputGroupPrepend">✉️</span>
                             <input type="text" class="form-control" id="email" name="email"
                                 aria-describedby="inputGroupPrepend" required>
                             <div class="invalid-feedback">
@@ -65,14 +64,14 @@
                                 contendo
                                 pelo menos 1 letra
                                 e 1 número)</span></label>
-                        <input type="text" class="form-control" id="zipCode" name="password" required>
+                        <input type="password" class="form-control" id="password" name="password" required>
                         <div class="invalid-feedback">
                             Este campo é obrigatório
                         </div>
                     </div>
                 </div>
                 <div class="col-12 mt-4">
-                    <button class="btn btn-primary" type="submit">Cadastrar</button>
+                    <button class="btn btn-primary" id="send-data" type="submit" disabled>Cadastrar</button>
                 </div>
             </form>
         </div>
@@ -110,7 +109,6 @@
                     <div class="col-md-4">
                         <label for="email" class="form-label">E-mail</label>
                         <div class="input-group has-validation">
-                            <span class="input-group-text" id="inputGroupPrepend">✉️</span>
                             <input type="text" class="form-control" id="email" name="email" value="{{ $user->email }}"
                                 aria-describedby="inputGroupPrepend" required>
                             <div class="invalid-feedback">
@@ -135,7 +133,7 @@
                                 contendo
                                 pelo menos 1 letra
                                 e 1 número)</span></label>
-                        <input type="text" class="form-control" id="password" name="password"
+                        <input type="password" class="form-control" id="password" name="password"
                             value="{{ $user->password }}" required>
                         <div class="invalid-feedback">
                             Este campo é obrigatório
@@ -143,7 +141,7 @@
                     </div>
                 </div>
                 <div class="col-12 mt-4">
-                    <button class="btn btn-primary" type="submit">Atualizar</button>
+                    <button class="btn btn-primary" id="send-data" type="submit" disabled>Atualizar</button>
                 </div>
             </form>
         </div>
