@@ -11,9 +11,3 @@ Subir aplicação
 
 Popular banco de dados
 ```./vendor/bin/sail artisan migrate --seed```
-
-### Respostas
-
-[Ex 01](https://github.com/adrianotsi/NextLevelWeek01/edit/master/README.md)
-[Ex 02](https://github.com/adrianotsi/laravel-superlogica/blob/main/app/Http/Controllers/ArrayController.php)
-[Ex 03](https://github.com/adrianotsi/laravel-superlogica/blob/main/app/Http/Controllers/UsuarioController.php)
